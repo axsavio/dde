@@ -2,6 +2,14 @@
       width: 60%;
 
   }
+ .perfil{
+     
+     display:flex;
+     flex-direction: column;
+     padding-left: 150px;
+
+    
+ }
 
   .perfilimg{
     width: 10%;
@@ -23,31 +31,86 @@
     padding-left: 74%;
     top: 100px;
     font-size: 20px;
+    text-align: start;
+   
+  
 }
 body{
     background-color: rgb(255, 255, 255);
     border: rgb(255, 255, 255);
 }
 .titulotextos{
-    font-size: 45px;
-    background-color: tomato;
-    color: rgb(0, 0, 0);
-    font-style: unset;
-   border-radius: 100px;
-   border-color: tomato;
-    width: 510px;
-    height: 45px;
+font-size: 50px;
+ color: rgb(0, 0, 0);
 text-align: center;
 font-family: 'Niconne';
-padding: 15px;
 margin-bottom: 10px;
+width: 100%;
+border-radius: 30px;
+padding: 1px;
+border-style: hidden;
 
+
+
+
+}
+.imgtxt{
+    width: 400px;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 15px;
 }
 .textos{
  
     font-size: 20px;
-    text-align: justify;
     font-family: 'Josefin Sans';
     text-indent: 150x;
+    text-align: left;
+    float: left;
+    padding-right:500px;
+    text-indent: 1em;
+    
+   
+
+   
+   
+
+    
+   
+
+}
+.rodape{
+    border: 1px solid grey;
+    margin-top: 50px;
+    background-color: WhiteSmoke		;
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+
+
+  
+   
+}
+footer{
+    font-size: 27px;
+    text-align: center;
+   
+   
+}
+.contatos{
+    margin-top: 0px;
+    margin: 0pt;
+}
+.fim{
+    font-size: 17px;
+    font-style: oblique;
+    margin: 0pt;
+}
+hr{
+   
     
 }
+.container{
+
+display: flex;
+flex-direction: column;
