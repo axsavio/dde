@@ -57,8 +57,9 @@ border-style: hidden;
 .imgtxt{
     width: 400px;
     float: left;
-    margin-bottom: 10px;
+    margin-bottom: 1px;
     margin-right: 15px;
+    margin-bottom: 10px;
 }
 .textos{
  
@@ -67,7 +68,7 @@ border-style: hidden;
     text-indent: 150x;
     text-align: left;
     float: left;
-    padding-right:500px;
+    padding-right:450px;
     text-indent: 1em;
     
    
@@ -82,10 +83,8 @@ border-style: hidden;
 .rodape{
     border: 1px solid grey;
     margin-top: 50px;
-    background-color: WhiteSmoke		;
+    background-color: WhiteSmoke	;
     margin-top: 140px;
-    display: flex;
-    flex-direction: column;
 
 
   
@@ -106,11 +105,22 @@ footer{
     font-style: oblique;
     margin: 0pt;
 }
-hr{
-   
-    
-}
+
 .container{
 
 display: flex;
-flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+
+
+
+
+
+
+}
+.container div{
+   width: 450px;
+   
+  
+    
+}
