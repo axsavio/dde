@@ -1,4 +1,8 @@
-  .logo{
+@-ms-viewport{
+    width: device-width;
+  }
+ 
+ .logo{
       width: 60%;
 
   }
