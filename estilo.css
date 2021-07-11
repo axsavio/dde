@@ -221,6 +221,7 @@ margin-top: 100px;
             height:345px;
             margin-top: -90px;
             margin-right: -380px;
+            display: none;
             
             
         
@@ -230,13 +231,14 @@ margin-top: 100px;
  
             display: flex;
             flex-direction: column;
+        
            
             
            
            }
            
  .boxtxt2{
-               margin-top: 270px;
+               margin-top: 100px;
                margin-right: 20px;
                padding-right: 20px;
                width: 650px;
@@ -272,7 +274,13 @@ margin-top: 100px;
            
         }
 
-       
+.textos{
+ 
+            font-size: 30px;
+            font-family: 'Josefin Sans';
+            float: left;
+            text-indent: 1em;
+            text-align: justify;}
         
 
 
