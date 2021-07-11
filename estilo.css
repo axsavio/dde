@@ -202,6 +202,109 @@ margin-top: 100px;
 
 
 
+@media (max-width: 600px){
+
+.homebarra{
+           width: 680px;
+           height: 50px;}
+
+ .logo{
+            
+            font-size:40px;
+            width: 50%;
+
+          
+           
+        }
+.box{
+            width:235px;
+            height:345px;
+            margin-top: -90px;
+            margin-right: -380px;
+            
+            
+        
+          
+        }
+ section{
+ 
+            display: flex;
+            flex-direction: column;
+           
+            
+           
+           }
+           
+ .boxtxt2{
+               margin-top: 270px;
+               margin-right: 20px;
+               padding-right: 20px;
+               width: 650px;
+               padding-top: 40px;
+           }
+ .boxtxt{
+               margin-top: 40px;
+               margin-right: 20px;
+               padding-right: 20px;
+               width: 650px;
+               padding-top: 40px;
+               
+           
+           
+           
+           }
+    
+
+.imgtxt{
+            width: 200px;
+            height: 100px;
+            margin-top: -103px;
+        
+        }
+ .titulotextos{
+            font-size: 30px;
+
+            margin-bottom: 10px;
+            width: 100%;
+          
+        
+        
+           
+        }
+
+       
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
 
 
 
