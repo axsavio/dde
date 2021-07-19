@@ -212,6 +212,9 @@ margin-top: 70px;
     padding-left: 800px;
     
 }
+.mobile{
+    display: none;
+}
 
 
 
@@ -219,18 +222,83 @@ margin-top: 70px;
 
 @media only screen and (max-device-width: 800px){
 
+    body{
+        margin:15px;
+        margin-top: 10px;
+        
+      
+
+        
+
+      
+      
+      
+      
+      
+      }
+      
+      
 .homebarra{
-           width: 100%;
-           height: 50px;}
+           width: 97vw;
+           height: 50px;
+           margin-left: 5px;
+           
+        }
 
  .logo{
             
-            font-size:40px;
-            width: 50%;
+            font-size:35px;
+            width: 100%;
+            margin-bottom: -80px;
+            margin-left: 20px;
 
           
            
         }
+
+
+        aside{
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    width:250px;
+    height:335px;
+    background-color: rgb(221, 187, 153);
+    box-shadow: 0px 0px 8px #6a4f3c;
+    margin-top: -90px;
+    margin-right: 10px;
+    margin-top: -100px;
+    border-radius: 20px;
+   
+
+  
+}
+.QSE{
+    font-size: 23px;
+    padding-left: 55px;
+    font-family: 'Kurale';
+}
+.imgperfil{
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    margin-left: 60px;
+    margin-top: 0px;
+}
+.txtperfil {
+    font-size: 20px; 
+    font-family: 'Kurale';
+    align-content: center;
+
+}
+.boxtxtperfil{
+    width: 200px;
+    margin-left: 45px;
+    border-radius: 5px;
+
+}
 .box{
             width:235px;
             height:345px;
@@ -260,6 +328,7 @@ margin-top: 70px;
                width:100%;
                padding-top: 40px;
                box-shadow: 0px 0px 0px #6a4f3c;
+
 
            }
  .boxtxt{
@@ -299,11 +368,13 @@ margin-top: 70px;
 
 .textos{
  
-            font-size: 18px;
-            font-family: 'Josefin Sans';
+            font-size: 23px;
+            font-family: 'Cormorant Garamond';
+            font-weight: 600;
             float: left;
             text-indent: 1em;
             text-align: justify;
+            margin-left: 10px;
             
         }
             
@@ -315,9 +386,6 @@ aside{
 
 
 
-footer{
-    display: none;
-}
 
 
 
@@ -326,6 +394,45 @@ footer{
 body{
     margin-right: 8px;
 }
+
+
+
+footer{
+    display: none;
+    
+}
+
+ .mobile{
+     display: flex;
+     
+ }   
+ .mobile .boxmobile{
+    width: 100%;
+     height: 40px;
+     background-color: rgb(221, 187, 153);
+     margin-top: 50px;
+     border-radius: 5px;
+     box-shadow: 0px 0px 10px #6a4f3c;  
+     
+    
+ }
+ .mobile .txtboxmobile{
+    font-size: 11px;
+    text-align: center;
+    margin-top: -14px;
+
+   
+  
+    
+ }
+
+
+
+
+
+
+
+
 
 
 
